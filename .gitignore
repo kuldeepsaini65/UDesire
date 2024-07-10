@@ -1,3 +1,4 @@
 migrations/
 .env
 .pyc
+__pycahce__/
