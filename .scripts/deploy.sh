@@ -27,6 +27,8 @@ echo "Running Database migration..."
 python manage.py makemigrations
 python manage.py migrate
 
+echo "Starting Collect Startic files command"
+python manage.py collectstatic --no-input
 # Deactivate Virtual Env
 deactivate
 echo "Virtual env 'venv' Deactivated !"
