@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+echo "Code by @KuldeepSaini65"
 echo "Deployment started ..."
 
 # Pull the latest version of the app
